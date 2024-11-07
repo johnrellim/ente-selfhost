@@ -59,7 +59,7 @@ First we want to configure, setup domain records and prepare a few things before
 
 ### Clone repository
 ```sh
-git clone https://github.com/EdyTheCow/ente-selfhost.git
+git clone https://github.com/johnrellim/ente-selfhost.git
 ```
 ### Set correct permissions
 Traefik uses file `acme.json` to store certificates it generates for all of domains. Traefik will not start if incorrect file permissions are used, to fix that navigate to `_base/data/traefik` and run:

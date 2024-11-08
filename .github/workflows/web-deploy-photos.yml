@@ -14,7 +14,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
               with:
-                  repository: ente-io/ente
+                  repository: johnrellim/ente
                   submodules: recursive
 
             - name: Setup node and enable yarn caching
